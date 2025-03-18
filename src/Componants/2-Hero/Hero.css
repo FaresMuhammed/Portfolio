@@ -1,0 +1,62 @@
+/* Left Section */
+
+.hero{
+    margin-top: 3rem;
+}
+
+section.hero .parent-avatar{
+    align-items: center;
+    gap: .6rem;
+}
+
+.left-section{
+    flex-grow: 1;
+}
+
+.avatar{
+    width: 88px;
+    border-radius: 50%;
+    border: 1px solid darkorange;
+    padding: 1px;
+    box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+.icon-verified{
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-bottom: .3rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.title{
+    font-size: 2.9rem;
+    line-height: 3.3rem;
+    margin: 25px 0;
+    color: var(--title);
+}
+
+.subtitle{
+    color: var(--subtitle);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.icons{
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+}
+
+.icon:hover{
+    font-size: 1.4rem;
+    transition: .3s;
+    cursor: pointer;
+    color: var(--icon-hover);
+}
+
+
+/* Rigth Section */

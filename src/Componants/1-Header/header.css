@@ -1,0 +1,130 @@
+/*
+TABLE OF CONTAINS
+===========================
+1. Header design
+2. Button & icon
+3. Responsive
+*/
+
+
+header {
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    margin-top: 1.2rem;
+}
+
+header nav{
+    background-color: var(--bgHeader);
+    padding: .77rem 1.6rem;
+    border-radius: 55px;
+    box-shadow: 1px 1px 20px #2323242a;
+}
+
+header ul{
+    gap: 16px;
+}
+
+header ul li a{
+    color: var(--title);
+    opacity: .9;
+    font-size: .88rem;
+    font-weight: 500;
+} 
+
+header ul li a:hover{
+    color: var(--blue);
+    opacity: 1;
+    font-size: .9rem;
+}
+
+header button {
+    font-size: 1.2rem;
+}
+
+.fixed{
+    position: fixed;
+    inset: 0;
+    background-color: rgb(40, 40, 48);
+    opacity: .9;
+}
+.model{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secendary);
+    animation: mymove .7s 1 ;
+}
+.model li {
+    border-bottom: 1px solid var(--border);
+    padding: .7rem 0;
+}
+.model li:last-child {
+    border: none;
+}
+.model li:first-child {
+    text-align: right;
+    border: none;
+    padding: 0 .2rem;
+    margin-bottom: -1rem;
+}
+.model li a{
+    font-size: 1rem;
+}
+
+@keyframes mymove {
+    0% {scale: 0;}
+    60% {scale: 1.2}
+    100% {scale: 1;}
+}
+
+header .menu{
+    display: none;
+}
+
+.icon-menu{
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.menu , .mood{
+    background-color: var(--bgHeader);
+    height: 2rem;
+    width: 2rem;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--title);
+    border: 1px solid rgb(244,165,96,.249);
+}
+
+.menu:hover , .mood:hover{
+    color: var(--title);
+    border: 1px solid rgb(244,165,96);
+    transition: .2s;
+}
+
+.icon-close{
+    font-size: 1.5rem;
+    color: var(--title);
+    margin-bottom: -11rem
+}
+.icon-close:hover{
+    font-size: 1.7rem;
+    color: crimson;
+    transition: .3s;
+    rotate: 180deg;
+}
+
+
+@media (max-width: 800px){
+
+    header nav{
+        display: none;
+    }
+
+    header .menu{
+        display: block;
+    }
+}

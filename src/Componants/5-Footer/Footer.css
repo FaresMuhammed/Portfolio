@@ -1,0 +1,32 @@
+footer {
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
+}
+
+.ull {
+    gap: 1rem;
+}
+
+.ull a{
+    color: var(--subtitle);
+    font-size: .9rem;
+    font-weight: 400;
+}
+.ull a:hover{
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer p {
+    color: rgb(113 113 122);
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

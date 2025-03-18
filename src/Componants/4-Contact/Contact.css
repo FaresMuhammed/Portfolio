@@ -1,0 +1,96 @@
+
+
+.icon-envelope{
+    color: var(--subtitle);
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+
+.titleee{
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+
+.subtitleee{
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+label { 
+    color: var(--subtitle);
+}
+
+#email , #messege {
+    all: unset;
+    background-color: rgba(63, 63, 70, .15);
+    border: 1px solid rgba(255, 255, 255);
+    width: 16rem;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    transition: .3s;
+    font-size: 1.1rem;
+}
+
+#messege {
+    min-height: 9rem;
+    resize: vertical;
+}
+
+#email:hover , #messege:hover{
+    border: 1px solid rgb(45 212 191);
+    
+}
+
+#email:focus , #messege:focus{
+    border: 1px solid rgb(45 212 191);
+}
+
+.submit{
+    background-color: rgba(36, 37, 46, 1);
+    padding: .7rem 2rem;
+    text-align: center;
+    font-size: 1.05rem;
+    border-radius: 7px;
+    transition: .3s;
+    margin-top: 1.8rem;
+    border: 1px solid rgb(63 63 70);
+    
+}
+
+.submit:hover{
+    scale: .95;
+}
+
+
+@media (max-width: 550px) {
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    form div.flex {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .animationn {
+        display: none;
+    }
+
+    #email , #messege {
+        padding: .5rem 0;
+        margin-top: 1rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .submit{
+        width: 30%;
+        align-self: center;
+    }
+}
