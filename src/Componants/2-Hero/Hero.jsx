@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='left-section '>
         
         <div className='flex parent-avatar'>
-          <img src="/public/Images/WhatsApp Image 2023-10-31 at 10.11.06_ff805dc6-modified (1).png" alt="" className='avatar' />
+          <img src="/public/Images/WhatsApp Image 2023-10-31 at 10.11.06_ff805dc6-modified (1).png" width='100px' alt="" className=''/>
           <h1 className='name '>Fares Mohammed</h1>
           <div className='icon-verified'></div>
         </div>
