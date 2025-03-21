@@ -60,6 +60,7 @@
 }
 .icon-sun:before {
   content: "\e9d4";
+  color: orange;
 }
 .icon-github:before {
   content: "\eab0";

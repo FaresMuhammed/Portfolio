@@ -6,7 +6,7 @@ main.flex{
 }
 
 .right-sectionn{
-    /* flex-grow: 1; */
+    flex-grow: 1;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
@@ -42,11 +42,22 @@ main.flex{
     padding: .8rem 0;
 
 }
+.light .left-sectionn .active {
+    border: 1px solid #000 ;
 
+}
 .card {
     border: 1px solid rgba(93, 188, 252, .3);
+    padding: 5px;
     border-radius: 8px;
     background-image: linear-gradient(rgba(255, 255, 255, .05) , rgba(255, 255, 255 , .05 ));
+}
+.light .card:hover {
+ border: 1px solid black;
+
+}
+.light .card {
+    border: 1px solid black;
 }
 .card:hover {
     border: 1px solid var(--blue);
@@ -55,7 +66,7 @@ main.flex{
     scale: 1.02;
     cursor: pointer;
 }
-n
+
 .card image {
     border-radius: 8px;
 }
@@ -77,6 +88,7 @@ n
 
 .iconss{
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .icon-link , .icon-github {
