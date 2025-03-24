@@ -45,7 +45,7 @@ header button {
     position: fixed;
     inset: 0;
     background-color: rgb(40, 40, 48);
-    opacity: .9;
+    /* opacity: .9; */
 }
 .model{
     width: 75%;
